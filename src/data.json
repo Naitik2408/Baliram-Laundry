@@ -1,0 +1,182 @@
+{
+    "Normal-cloths": [
+        {
+            "title": "Shirt",
+            "image": "https://images.unsplash.com/photo-1621072156002-e2fccdc0b176?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+            "price": 100,
+            "description": "This is a shirt"
+        },
+        {
+            "title": "Pant",
+            "image": "https://images.unsplash.com/photo-1576995853123-5a10305d93c0?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+            "price": 200,
+            "description": "This is a pant"
+        },
+        {
+            "title": "Shoe",
+            "image": "https://images.unsplash.com/photo-1542291026-7eec264c27ff?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+            "price": 300,
+            "description": "This is a shoe"
+        },
+        {
+            "title": "Hat",
+            "image": "https://images.unsplash.com/photo-1521369909029-2afed882baee?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+            "price": 400,
+            "description": "This is a hat"
+        },
+        {
+            "title": "Tshirt",
+            "image": "https://images.unsplash.com/photo-1593032465175-0e1b1a1a1a1a?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+            "price": 150,
+            "description": "This is a Tshirt"
+        },
+        {
+            "title": "Undergarments",
+            "image": "https://images.unsplash.com/photo-1593032465175-0e1b1a1a1a1a?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+            "price": 50,
+            "description": "These are undergarments"
+        },
+        {
+            "title": "Towel",
+            "image": "https://images.unsplash.com/photo-1593032465175-0e1b1a1a1a1a?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+            "price": 100,
+            "description": "This is a towel"
+        },
+        {
+            "title": "Pajama",
+            "image": "https://images.unsplash.com/photo-1593032465175-0e1b1a1a1a1a?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+            "price": 200,
+            "description": "This is a pajama"
+        },
+        {
+            "title": "Shorts",
+            "image": "https://images.unsplash.com/photo-1593032465175-0e1b1a1a1a1a?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+            "price": 150,
+            "description": "These are shorts"
+        },
+        {
+            "title": "Kurta Pajama",
+            "image": "https://images.unsplash.com/photo-1593032465175-0e1b1a1a1a1a?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+            "price": 250,
+            "description": "This is a kurta pajama"
+        },
+        {
+            "title": "Bed Sheet",
+            "image": "https://images.unsplash.com/photo-1593032465175-0e1b1a1a1a1a?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+            "price": 300,
+            "description": "This is a bed sheet"
+        },
+        {
+            "title": "Pillow Cover",
+            "image": "https://images.unsplash.com/photo-1593032465175-0e1b1a1a1a1a?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+            "price": 100,
+            "description": "This is a pillow cover"
+        }
+    ],
+    "Dry-clean": [
+        {
+            "title": "Shirt",
+            "image": "https://images.unsplash.com/photo-1582735689369-4fe89db7114c?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+            "price": 100,
+            "description": "This is a shirt"
+        },
+        {
+            "title": "Pant",
+            "image": "https://images.unsplash.com/photo-1582735689369-4fe89db7114c?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+            "price": 200,
+            "description": "This is a pant"
+        },
+        {
+            "title": "Shoe",
+            "image": "https://images.unsplash.com/photo-1582735689369-4fe89db7114c?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+            "price": 300,
+            "description": "This is a shoe"
+        },
+        {
+            "title": "Hat",
+            "image": "https://images.unsplash.com/photo-1582735689369-4fe89db7114c?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+            "price": 400,
+            "description": "This is a hat"
+        },
+        {
+            "title": "Coat Pant",
+            "image": "https://images.unsplash.com/photo-1582735689369-4fe89db7114c?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+            "price": 500,
+            "description": "This is a coat pant"
+        },
+        {
+            "title": "Blazer",
+            "image": "https://images.unsplash.com/photo-1582735689369-4fe89db7114c?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+            "price": 600,
+            "description": "This is a blazer"
+        },
+        {
+            "title": "Jacket",
+            "image": "https://images.unsplash.com/photo-1582735689369-4fe89db7114c?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+            "price": 700,
+            "description": "This is a jacket"
+        }
+    ],
+    "Easy-wash": [
+        {
+            "title": "Hoodie",
+            "image": "https://images.unsplash.com/photo-1582735689369-4fe89db7114c?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+            "price": 150,
+            "description": "This is a hoodie"
+        },
+        {
+            "title": "Jacket",
+            "image": "https://images.unsplash.com/photo-1582735689369-4fe89db7114c?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+            "price": 200,
+            "description": "This is a jacket"
+        },
+        {
+            "title": "Others",
+            "image": "https://images.unsplash.com/photo-1582735689369-4fe89db7114c?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+            "price": 100,
+            "description": "These are other items"
+        }
+    ],
+    "Blanket-wash": [
+        {
+            "title": "Single Bed",
+            "image": "https://images.unsplash.com/photo-1582735689369-4fe89db7114c?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+            "price": 250,
+            "description": "This is a single bed blanket"
+        },
+        {
+            "title": "Double Bed",
+            "image": "https://images.unsplash.com/photo-1582735689369-4fe89db7114c?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+            "price": 400,
+            "description": "This is a double bed blanket"
+        }
+    ],
+    "Bags": [
+        {
+            "title": "College Bag",
+            "image": "https://images.unsplash.com/photo-1582735689369-4fe89db7114c?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+            "price": 150,
+            "description": "This is a college bag"
+        },
+        {
+            "title": "Trolley Bag",
+            "image": "https://images.unsplash.com/photo-1582735689369-4fe89db7114c?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+            "price": 300,
+            "description": "This is a trolley bag"
+        },
+        {
+            "title": "Medium Bag",
+            "image": "https://images.unsplash.com/photo-1582735689369-4fe89db7114c?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+            "price": 200,
+            "description": "This is a medium bag"
+        }
+    ],
+    "Shoes": [
+        {
+            "title": "Shoe",
+            "image": "https://images.unsplash.com/photo-1582735689369-4fe89db7114c?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+            "price": 300,
+            "description": "This is a shoe"
+        }
+    ]
+}
