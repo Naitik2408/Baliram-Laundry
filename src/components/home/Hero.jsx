@@ -13,10 +13,7 @@ function Hero() {
     return (
         <div className='p-2 md:px-20 md:py-10 md:flex gap-10 text-stone-800'>
             <div className='md:w-[60%]'>
-                <div className='flex justify-between items-center p-2 px-2 md:p-3 md:pl-5 rounded-full border border-blue-200 bg-blue-50'>
-                    <div className='lilita-one-regular text-2xl md:text-3xl'>Cleano</div>
-                    <div className=' bg-[royalblue] poppins-medium cursor-pointer text-stone-50 px-3 md:px-6 md:text-lg py-2 md:py-3 rounded-full shadow md:shadow-lg shadow-stone-400 hover:scale-110 transition-all duration-150'>Contact Us</div>
-                </div>
+                <Navbar />
                 <div className='mt-2 md:mt-5 p-3 md:p-9 rounded-3xl md:rounded-4xl bg-blue-100'>
                     <div className='lilita-one-regular text-5xl md:text-8xl'>Discover the Next Evolution of <span className='text-blue-600'>Laundry</span></div>
                     <div className='mt-2 md:mt-4 poppins-regular text-sm md:text-lg text-stone-600'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam et veniam, dolorum ducimus maiores laboriosam in.</div>

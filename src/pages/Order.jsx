@@ -8,9 +8,10 @@ import easyWash from '../assets/easyWash.png';
 import blanket from '../assets/blanket.png';
 import bag from '../assets/bag.png';
 import shoes from '../assets/shoes.png';
+import Navbar from '../components/Navbar';
 
 function Order() {
-    const [selected, setSelected] = useState(null);
+    const [selected, setSelected] = useState('normal');
 
     const handleSelect = (item) => {
         setSelected(item);
@@ -19,10 +20,11 @@ function Order() {
     return (
         <div className='px-2 md:px-20 py-2 md:py-10 h-[100vh] flex flex-col md:flex-row gap-2 md:gap-10'>
             <div className='md:w-[30%]'>
-                <div className='flex justify-between items-center p-2 px-2 md:p-3 md:pl-5 rounded-full border border-blue-200 bg-blue-50'>
-                    <Link to={'/order'} className='lilita-one-regular text-2xl md:text-3xl'>Cleano</Link>
+                {/* <div className='flex justify-between items-center p-2 px-2 md:p-3 md:pl-5 rounded-full border border-blue-200 bg-blue-50'>
+                    <Link to={'/'} className='lilita-one-regular text-2xl md:text-3xl'>Cleano</Link>
                     <div className=' bg-[royalblue] poppins-medium cursor-pointer text-stone-50 text-lg p-2 md:p-3 rounded-full shadow-lg shadow-stone-400 hover:scale-110 transition-all duration-150'><HiMiniShoppingCart size={22} /></div>
-                </div>
+                </div> */}
+                <Navbar/>
                 <div className='mt-2 md:mt-5 md:py-9 rounded-4xl grid gap-2 md:gap-5 grid-cols-2 md:grid-cols-3'>
                     <Link to={'/order'}
                         onClick={() => handleSelect('normal')}
