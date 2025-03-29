@@ -5,10 +5,10 @@ import { HiOutlineCheck } from "react-icons/hi";
 
 function Pricing() {
   return (
-    <div className='px-4md:px-20 py-20 mt-20'>
+    <div className='px-4 md:px-20 py-20 mt-20'>
         <div className='text-center text-3xl md:text-5xl lilita-one-regular'>Affordable <span className='text-blue-500'>Pricing Packanges</span></div>
-        <div className='mt-10 md:mt-20 flex flex-col md:flex-row justify-center gap-10'>
-            <div className='md:w-[400px] p-8 bg-stone-100 shadow shadow-stone-400 rounded-3xl flex flex-col items-'>
+        <div className='mt-10 md:mt-20 flex flex-col md:flex-row justify-center gap-10 flex-wrap'>
+            <div className=' md:w-[400px] p-8 bg-stone-100 shadow shadow-stone-400 rounded-3xl flex flex-col items-'>
                 <div className='lilita-one-regular text-4xl'>$40 <span className='text-blue-500 poppins-medium text- text-lg'>/per Day</span></div>
                 <div className='text-xl poppins-medium mt-3'>Onetime Package</div>
                 <div className='mt-1 poppins-regular text-stone-700 border-b border-stone-400 pb-5'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum quae voluptas</div>

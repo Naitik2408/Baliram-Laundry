@@ -61,14 +61,14 @@ function Testimonial() {
   };
 
   return (
-    <div className="mx-4 md:mx-20 px-4 md:px-20 py-10 md:py-20 mt-20 bg-blue-50 rounded-4xl md:rounded-[90px] relative overflow-hidden">
+    <div className="mx-4 lg:mx-20 px-4 md:px-10 lg:px-20 py-10 md:py-20 mt-20 bg-blue-50 rounded-4xl md:rounded-[90px] relative overflow-hidden">
       <div className="flex justify-between">
-        <div className="md:w-1/2">
+        <div className="lg:w-1/2">
           <div className="text-3xl md:text-5xl lilita-one-regular">
             Customer <span className="text-blue-500">Testimonials</span>
           </div>
         </div>
-        <div className="hidden md:flex gap-5 text-stone-700 items-end">
+        <div className="hidden lg:flex gap-5 text-stone-700 items-end">
           <div
             onClick={handlePrevClick}
             className="border-2 border-stone-500 px-8 py-3 rounded-full cursor-pointer hover:bg-orange-500 transition-all"

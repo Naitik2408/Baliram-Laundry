@@ -14,7 +14,7 @@ function Home() {
         <Service/>
         <About/>
         <Pricing/>
-        <Testmonial/>
+        {/* <Testmonial/> */}
         <FAQ/>
         {/* <Footer/> */}
     </div>

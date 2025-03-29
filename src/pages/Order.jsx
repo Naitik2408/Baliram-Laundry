@@ -25,53 +25,55 @@ function Order() {
                     <div className=' bg-[royalblue] poppins-medium cursor-pointer text-stone-50 text-lg p-2 md:p-3 rounded-full shadow-lg shadow-stone-400 hover:scale-110 transition-all duration-150'><HiMiniShoppingCart size={22} /></div>
                 </div> */}
                 <Navbar/>
-                <div className='mt-2 md:mt-5 md:py-9 rounded-4xl grid gap-2 md:gap-5 grid-cols-2 md:grid-cols-3'>
+                <div className='mt-2 md:mt-5 md:py-9 rounded-4xl grid gap-2 md:gap-5 grid-cols-3 md:grid-cols-3'>
                     <Link to={'/order'}
                         onClick={() => handleSelect('normal')}
-                        className={`border border-blue-200 bg-blue-50 py-5 rounded-2xl flex md:flex-col flex-row gap-2 justify-center items-center cursor-pointer ${selected === 'normal' ? 'outline-2 md:outline-3 outline-blue-400' : ''}`}
+                        className={`border border-blue-200 bg-blue-50 py-3 md:py-5 rounded-xl md:rounded-2xl flex md:flex-col flex-row gap-2 justify-center items-center cursor-pointer ${selected === 'normal' ? 'outline-2 md:outline-3 outline-blue-400' : ''}`}
                     >
-                        <div className='text-stone-600'><img src={normal} alt="normal" className='w-10 md:w-20' /></div>
-                        <div className='poppins-medium text-stone-700 text-center text-[13px] md:text-[15px]'>Normal <br className='hidden md:block' /> Cloths</div>
+                        <div className='text-stone-600'><img src={normal} alt="normal" className='w-6 md:w-20' /></div>
+                        <div className='poppins-medium text-stone-700 text-center text-[11px] md:text-[15px]'>Normal <br className='hidden md:block' /> <span className='hidden md:block'>Cloths</span> 
+                        {/* <br />25 per/kg */}
+                        </div>
                     </Link>
 
                     <Link to={'/order/dry-clean'}
                         onClick={() => handleSelect('dryClean')}
-                        className={`border border-blue-200 bg-blue-50 py-5 rounded-2xl flex md:flex-col flex-row gap-2 justify-center items-center cursor-pointer ${selected === 'dryClean' ? 'outline-2 md:outline-3 outline-blue-400' : ''}`}
+                        className={`border border-blue-200 bg-blue-50 py-3 md:py-5 rounded-xl md:rounded-2xl flex md:flex-col flex-row gap-2 justify-center items-center cursor-pointer ${selected === 'dryClean' ? 'outline-2 md:outline-3 outline-blue-400' : ''}`}
                     >
-                        <div className='text-stone-600'><img src={dryClean} alt="dryClean" className='w-10 md:w-20' /></div>
-                        <div className='text-center poppins-medium text-stone-700 text-[13px] md:text-[15px]'>Dry <br className='hidden md:block' />Clean</div>
+                        <div className='text-stone-600'><img src={dryClean} alt="dryClean" className='w-6 md:w-20' /></div>
+                        <div className='text-center poppins-medium text-stone-700 text-[11px] md:text-[15px]'>Dry <br className='hidden md:block' />Clean</div>
                     </Link>
 
                     <Link to={'/order/easy-wash'}
                         onClick={() => handleSelect('easyWash')}
-                        className={`border border-blue-200 bg-blue-50 py-5 rounded-2xl flex md:flex-col flex-row gap-2 justify-center items-center cursor-pointer ${selected === 'easyWash' ? 'outline-2 md:outline-3 outline-blue-400' : ''}`}
+                        className={`border border-blue-200 bg-blue-50 py-3 md:py-5 rounded-xl md:rounded-2xl flex md:flex-col flex-row gap-2 justify-center items-center cursor-pointer ${selected === 'easyWash' ? 'outline-2 md:outline-3 outline-blue-400' : ''}`}
                     >
-                        <div className='text-stone-600'><img src={easyWash} alt="easyWash" className='w-10 md:w-20' /></div>
-                        <div className='text-center poppins-medium text-stone-700 text-[13px] md:text-[15px]'>Easy <br className='hidden md:block' />Wash</div>
+                        <div className='text-stone-600'><img src={easyWash} alt="easyWash" className='w-6 md:w-20' /></div>
+                        <div className='text-center poppins-medium text-stone-700 text-[11px] md:text-[15px]'>Easy <br className='hidden md:block' />Wash</div>
                     </Link>
 
                     <Link to={'/order/blanket'}
                         onClick={() => handleSelect('blanket')}
-                        className={`border border-blue-200 bg-blue-50 py-5 rounded-2xl flex md:flex-col flex-row gap-2 justify-center items-center cursor-pointer ${selected === 'blanket' ? 'outline-2 md:outline-3 outline-blue-400' : ''}`}
+                        className={`border border-blue-200 bg-blue-50 py-3 md:py-5 rounded-xl md:rounded-2xl flex md:flex-col flex-row gap-2 justify-center items-center cursor-pointer ${selected === 'blanket' ? 'outline-2 md:outline-3 outline-blue-400' : ''}`}
                     >
-                        <div className='text-stone-600'><img src={blanket} alt="blanket" className='w-10 md:w-20' /></div>
-                        <div className='text-center poppins-medium text-stone-700 text-[13px] md:text-[15px]'>Blanket <br className='hidden md:block' />Wash</div>
+                        <div className='text-stone-600'><img src={blanket} alt="blanket" className='w-6 md:w-20' /></div>
+                        <div className='text-center poppins-medium text-stone-700 text-[11px] md:text-[15px]'>Blanket <br className='hidden md:block' /><span className='hidden md:block'>Wash</span></div>
                     </Link>
 
                     <Link to={'/order/bag'}
                         onClick={() => handleSelect('bag')}
-                        className={`border border-blue-200 bg-blue-50 py-5 rounded-2xl flex md:flex-col flex-row gap-2 justify-center items-center cursor-pointer ${selected === 'bag' ? 'outline-2 md:outline-3 outline-blue-400' : ''}`}
+                        className={`border border-blue-200 bg-blue-50 py-3 md:py-5 rounded-xl md:rounded-2xl flex md:flex-col flex-row gap-2 justify-center items-center cursor-pointer ${selected === 'bag' ? 'outline-2 md:outline-3 outline-blue-400' : ''}`}
                     >
-                        <div className='text-stone-600'><img src={bag} alt="bag" className='w-10 md:w-20' /></div>
-                        <div className='text-center poppins-medium text-stone-700 text-[13px] md:text-[15px]'>Bags <br className='hidden md:block' />Wash</div>
+                        <div className='text-stone-600'><img src={bag} alt="bag" className='w-6 md:w-20' /></div>
+                        <div className='text-center poppins-medium text-stone-700 text-[11px] md:text-[15px]'>Bags <br className='hidden md:block' />Wash</div>
                     </Link>
 
                     <Link to={'/order/shoes'}
                         onClick={() => handleSelect('shoes')}
-                        className={`border border-blue-200 bg-blue-50 py-5 rounded-2xl flex md:flex-col flex-row gap-2 justify-center items-center cursor-pointer ${selected === 'shoes' ? 'outline-2 md:outline-3 outline-blue-400' : ''}`}
+                        className={`border border-blue-200 bg-blue-50 py-3 md:py-5 rounded-xl md:rounded-2xl flex md:flex-col flex-row gap-2 justify-center items-center cursor-pointer ${selected === 'shoes' ? 'outline-2 md:outline-3 outline-blue-400' : ''}`}
                     >
-                        <div className='text-stone-600'><img src={shoes} alt="shoes" className='w-10 md:w-20' /></div>
-                        <div className='text-center poppins-medium text-stone-700 text-[13px] md:text-[15px]'>Shoes <br className='hidden md:block' />Wash</div>
+                        <div className='text-stone-600'><img src={shoes} alt="shoes" className='w-6 md:w-20' /></div>
+                        <div className='text-center poppins-medium text-stone-700 text-[11px] md:text-[15px]'>Shoes <br className='hidden md:block' />Wash</div>
                     </Link>
                 </div>
             </div>

@@ -6,7 +6,7 @@ function Normal() {
     const normalCloths = data["Normal-cloths"];
 
     return (
-        <div className='grid grid-cols-1 md:grid-cols-2 gap-5 md:gap-10'>
+        <div className='grid grid-cols-2 gap-y-5 gap-2 md:gap-10'>
             {normalCloths.map((item, index) => (
                 <Card key={index} {...item} />
             ))}
