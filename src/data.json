@@ -2,67 +2,67 @@
     "Normal-cloths": [
         {
             "title": "Jeans",
-            "image": "https://images.unsplash.com/photo-1621072156002-e2fccdc0b176?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+            "image": "https://lscoecomm.scene7.com/is/image/lscoecomm/SEO---BLOG-IDEA-4---The-Definitive-Guide-to-Denim-REVAMP_16-9_Intro?fmt=jpeg&qlt=70&resMode=sharp2&fit=crop,1&op_usm=0.6,0.6,8&wid=2000&hei=1125",
             "price": 25,
             "description": "This is a shirt"
         },
         {
             "title": "Pant",
-            "image": "https://images.unsplash.com/photo-1576995853123-5a10305d93c0?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+            "image": "https://cdn.shopify.com/s/files/1/0423/3576/4634/files/wash-01_1024x1024.jpg?v=1620630030",
             "price": 25,
             "description": "This is a pant"
         },
         {
             "title": "Shirt",
-            "image": "https://images.unsplash.com/photo-1542291026-7eec264c27ff?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+            "image": "https://www.brooksbrothers.eu/on/demandware.static/-/Sites-brooksbrothers-Library/default/dwcc745e91/landing/BBblog_2_linen_care.jpg",
             "price": 25,
             "description": "This is a shoe"
         },
         {
             "title": "Tshirt",
-            "image": "https://images.unsplash.com/photo-1521369909029-2afed882baee?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+            "image": "https://yourdesignstore.s3.amazonaws.com/uploads/yds/productImages/full/17119587213301Main-Product-Image.jpg",
             "price": 25,
             "description": "This is a hat"
         },
         {
             "title": "Undergarments",
-            "image": "https://images.unsplash.com/photo-1593032465175-0e1b1a1a1a1a?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+            "image": "https://cdn.shopify.com/s/files/1/0042/5689/0989/files/CTA2LARGE.png?v=1675370838",
             "price": 25,
             "description": "These are undergarments"
         },
         {
             "title": "Towel",
-            "image": "https://images.unsplash.com/photo-1593032465175-0e1b1a1a1a1a?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+            "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT5EhowusdwbArc4h5EsRUOIwg7KsWSFaoVmA&s",
             "price": 25,
             "description": "This is a towel"
         },
         {
             "title": "Pajama",
-            "image": "https://images.unsplash.com/photo-1593032465175-0e1b1a1a1a1a?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+            "image": "https://cdn.shopify.com/s/files/1/0669/1684/3771/files/How-Often-Should-You-Wash-Your-Pajamas.jpg",
             "price": 25,
             "description": "This is a pajama"
         },
         {
             "title": "Shorts",
-            "image": "https://images.unsplash.com/photo-1593032465175-0e1b1a1a1a1a?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+            "image": "https://www.thehappyclothingcompany.com/cdn/shop/products/Mineral-Wash-Shorts_85ca99bb-19b2-4064-84c4-1c9a662817ac.jpg?v=1648583170",
             "price": 25,
             "description": "These are shorts"
         },
         {
             "title": "Kurta Pajama",
-            "image": "https://images.unsplash.com/photo-1593032465175-0e1b1a1a1a1a?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+            "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSXhcSfnHJohpRofEipjnZOFza_clXZ_DaPrA&s",
             "price": 25,
             "description": "This is a kurta pajama"
         },
         {
             "title": "Bed Sheet",
-            "image": "https://images.unsplash.com/photo-1593032465175-0e1b1a1a1a1a?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+            "image": "https://cdn05.zipify.com/DsurkGhx204WGFMwXPUN5uWyLm0=/fit-in/3840x0/61a68b0b9f074b1e869935fc2fcb0e8c/bedsheets-5.png",
             "price": 25,
             "description": "This is a bed sheet"
         },
         {
             "title": "Pillow Cover",
-            "image": "https://images.unsplash.com/photo-1593032465175-0e1b1a1a1a1a?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+            "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQKo-F-ry0OjUtXurfKsCYJLEIhvKtol5l2tw&s",
             "price": 25,
             "description": "This is a pillow cover"
         }
@@ -70,19 +70,19 @@
     "Dry-clean": [
         {
             "title": "Coat Pant",
-            "image": "https://plus.unsplash.com/premium_photo-1671030274122-b6ac34f87b8b?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+            "image": "https://content.jdmagicbox.com/comp/def_content/laundry_services/default-laundry-services-9-250.jpg",
             "price": 250,
             "description": "This is a coat pant"
         },
         {
             "title": "Blazer",
-            "image": "https://media.istockphoto.com/id/1287008316/photo/blue-black-blazer-sleeves-button-closeup-texture.jpg?s=2048x2048&w=is&k=20&c=Ev352yTfGlQSs3-UgVLjmM57t7y0ZA0v0-BYyVozGBY=",
+            "image": "https://gospinxpress.com/wp-content/uploads/2024/10/how-to-wash-suits-1024x689.webp",
             "price": 140,
             "description": "This is a blazer"
         },
         {
             "title": "Jacket",
-            "image": "https://media.istockphoto.com/id/2156609312/photo/street-style-fashion-cloth-of-beige-brown-mens-coat-classy-urban-outerwear.jpg?s=2048x2048&w=is&k=20&c=lq7GRbV9DMIDCl2efvAJX_8wGpVqUocDVVbWOpel6gE=",
+            "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQre0NNzEYmkWZkQBWdMNMFlg_Tr5plwhreoA&s",
             "price": 140,
             "description": "This is a jacket"
         }
@@ -104,7 +104,7 @@
     "Blanket-wash": [
         {
             "title": "Single Bed",
-            "image": "https://images.unsplash.com/photo-1635594202056-9ea3b497e5c0?q=80&w=2080&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+            "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTrmnjS5GXCHd-qVrZNQwPF3NmhJ0q5HM5dmA&s",
             "price": 150,
             "description": "This is a single bed blanket"
         },
@@ -138,7 +138,7 @@
     "Shoes": [
         {
             "title": "Shoe",
-            "image": "https://images.unsplash.com/photo-1582735689369-4fe89db7114c?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+            "image": "https://static.nike.com/a/images/f_auto/dpr_3.0,cs_srgb/w_403,c_limit/337f57b2-0272-4410-93c5-82c2c0f007a2/how-to-clean-your-shoes-in-6-easy-steps.jpg",
             "price": 50,
             "description": "This is a shoe"
         }
