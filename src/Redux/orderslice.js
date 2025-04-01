@@ -11,11 +11,11 @@ const orderSlice = createSlice({
     addItem: (state, action) => {
       const existingItem = state.items.find(item => item.title === action.payload.title);
       if (existingItem) {
-        existingItem.quantity += 1;
+          existingItem.quantity += 1;
       } else {
-        state.items.push({ ...action.payload, quantity: 1 });
+          state.items.push({ ...action.payload, quantity: 1 });
       }
-    },
+  },
     incrementItem: (state, action) => {
       const item = state.items.find(item => item.title === action.payload.title);
       if (item) {

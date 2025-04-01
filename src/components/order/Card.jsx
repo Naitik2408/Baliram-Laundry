@@ -4,7 +4,7 @@ import { FaPlus, FaMinus } from "react-icons/fa6";
 import { addItem, incrementItem, decrementItem, toggleIron } from '../../Redux/orderslice';
 import { TbIroning3Filled } from "react-icons/tb";
 
-function Card({ title, image, price, description, isIron }) {
+function Card({ title, image, price, description, isIron, category }) {
     const dispatch = useDispatch();
     const cartItem = useSelector(state => state.order.items.find(item => item.title === title));
     const [inCart, setInCart] = useState(false);
@@ -34,7 +34,7 @@ function Card({ title, image, price, description, isIron }) {
     }, [cartItem]);
 
     const handleAddToCart = () => {
-        dispatch(addItem({ title, image, price, description, isIron, ironCloth: isIronButton }));
+        dispatch(addItem({ title, image, price, description, isIron, ironCloth: isIronButton, category }));
     };
 
     const handleIncrement = () => {
