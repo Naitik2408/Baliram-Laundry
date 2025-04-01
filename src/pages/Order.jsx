@@ -18,12 +18,8 @@ function Order() {
     };
 
     return (
-        <div className='px-2 md:px-20 py-2 md:py-10 h-[100vh] flex flex-col md:flex-row gap-2 md:gap-10'>
+        <div className='px-2 md:px-20 py-2 md:py-10 md:h-[100vh] flex flex-col md:flex-row gap-2 md:gap-10'>
             <div className='md:w-[30%]'>
-                {/* <div className='flex justify-between items-center p-2 px-2 md:p-3 md:pl-5 rounded-full border border-blue-200 bg-blue-50'>
-                    <Link to={'/'} className='lilita-one-regular text-2xl md:text-3xl'>Cleano</Link>
-                    <div className=' bg-[royalblue] poppins-medium cursor-pointer text-stone-50 text-lg p-2 md:p-3 rounded-full shadow-lg shadow-stone-400 hover:scale-110 transition-all duration-150'><HiMiniShoppingCart size={22} /></div>
-                </div> */}
                 <Navbar/>
                 <div className='mt-2 md:mt-5 md:py-9 rounded-4xl grid gap-2 md:gap-5 grid-cols-3 md:grid-cols-3'>
                     <Link to={'/order'}
@@ -77,7 +73,7 @@ function Order() {
                     </Link>
                 </div>
             </div>
-            <div className='py-3 md:p-5 flex-1 rounded-4xl overflow-y-auto'>
+            <div className='py-10 md:p-5 flex-1 overflow-y-auto'>
                 <Outlet />
             </div>
         </div>

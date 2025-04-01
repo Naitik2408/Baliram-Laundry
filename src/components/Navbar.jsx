@@ -15,9 +15,31 @@ function Navbar() {
     setIsCartOpen(!isCartOpen);
   };
 
+  console.log("cartitem", cartItems);
+
   const handleConfirmOrder = () => {
+    // Group items by category
+    const groupedItems = cartItems.reduce((acc, item) => {
+      if (!acc[item.category]) {
+        acc[item.category] = [];
+      }
+      acc[item.category].push(item);
+      return acc;
+    }, {});
+
+    // Format the message
+    let message = `🧺 Hey, I want to deliver some clothes to Baliram Laundry.\n\n📋 *Details:*\n`;
+    Object.keys(groupedItems).forEach(category => {
+      message += `\n*${category}:*\n`;
+      groupedItems[category].forEach((item, index) => {
+        message += `${index + 1}. ${item.title}: ${item.quantity} ${item.quantity > 1 ? "pieces" : "piece"}${item.ironCloth ? " (Ironing)" : ""}\n`;
+      });
+    });
+
     const totalPieces = cartItems.reduce((total, item) => total + item.quantity, 0);
-    const message = `🧺 Hey, I want to deliver some clothes to Baliram Laundry.\n\n📋 *Details:*\n${cartItems.map((item, index) => `${index + 1}. ${item.title}: ${item.quantity} ${item.quantity > 1 ? "pieces" : "piece"}\n`).join('')}\n\nTotal pieces: ${totalPieces}`;
+    message += `\nTotal pieces: ${totalPieces}`;
+
+    // Redirect to WhatsApp
     const whatsappUrl = `https://wa.me/9060557296?text=${encodeURIComponent(message)}`;
     window.location.href = whatsappUrl;
   };
@@ -43,9 +65,6 @@ function Navbar() {
             <div className='absolute bg-stone-200 shadow border border-stone-300 top-[-5px] left-[-9px] text-stone-800 poppins-medium w-5 lg:w-6 aspect-square flex justify-center items-center rounded-full text-[10px] lg:text-[15px]'>{cartItems.length}</div>
           </div>
         ) : (
-          // <div className='bg-[royalblue] poppins-medium cursor-pointer text-stone-50 px-3 md:px-6 md:text-lg py-2 md:py-3 rounded-full shadow md:shadow-lg shadow-stone-400 hover:scale-110 transition-all duration-150'>
-          //   Contact Us
-          // </div>
           <></>
         )}
       </div>
@@ -53,11 +72,11 @@ function Navbar() {
         <>
           <div className='fixed inset-0 bg-stone-600/70 px-10 backdrop-blur-lg bg-opacity-50 z-40' onClick={toggleCart}></div>
           <div className='fixed inset-0 flex px-2 items-center justify-center z-50'>
-            <div className='bg-white border border-stone-300 shadow-lg rounded-lg p-4 w-full lg:w-[600px] h-[500px] overflow-auto flex flex-col justify-between'>
+            <div className='bg-white border border-stone-300 shadow-lg rounded-lg p-4 w-full lg:w-[600px] h-[550px] overflow-auto flex flex-col justify-between'>
               <Cart />
               <div className='flex justify-between items-center gap-4 mt-5'>
-                <div onClick={toggleCart} className='bg-red-500 shadow-lg poppins-medium shadow-stone-300 text-stone-50 px-4 lg:px-5 py-3 lg:py-4 rounded-full hover:scale-110 transition-all duration-300 cursor-pointer'>Close</div>
-                <div onClick={handleConfirmOrder} className='bg-green-600 shadow-lg poppins-medium shadow-stone-300 text-stone-50 px-4 lg:px-5 py-3 lg:py-4 rounded-full hover:scale-110 transition-all duration-300 cursor-pointer'>Confirm Order</div>
+                <div onClick={toggleCart} className='bg-red-400 shadow-lg poppins-medium shadow-stone-300 text-stone-50 px-4 lg:px-5 py-3 lg:py-4 rounded-lg hover:scale-110 transition-all duration-300 cursor-pointer'>Close</div>
+                <div onClick={handleConfirmOrder} className='flex-1 flex justify-center items-center bg-blue-500 shadow-lg poppins-medium shadow-stone-300 text-stone-50 px-4 lg:px-5 py-3 lg:py-4 rounded-lg hover:scale-110 transition-all duration-300 cursor-pointer'>Confirm Your Order</div>
               </div>
             </div>
           </div>

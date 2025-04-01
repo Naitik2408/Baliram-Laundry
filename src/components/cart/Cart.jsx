@@ -1,7 +1,7 @@
 import React from 'react';
 import { useSelector, useDispatch } from 'react-redux';
 import CartCard from './CartCard';
-import { incrementItem, decrementItem } from '../../Redux/orderslice';
+import { incrementItem, decrementItem, toggleIron } from '../../Redux/orderslice';
 
 function Cart() {
     const items = useSelector(state => state.order.items);
@@ -15,6 +15,10 @@ function Cart() {
         dispatch(decrementItem(item));
     };
 
+    const handleToggleIron = (item) => {
+        dispatch(toggleIron(item)); // Update the Redux store
+    };
+
     return (
         <div className='w-full'>
             {items.length === 0 ? (
@@ -26,6 +30,7 @@ function Cart() {
                         {...item}
                         onIncrement={() => handleIncrement(item)}
                         onDecrement={() => handleDecrement(item)}
+                        onToggleIron={() => handleToggleIron(item)}
                     />
                 ))
             )}

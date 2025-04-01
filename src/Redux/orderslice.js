@@ -29,9 +29,15 @@ const orderSlice = createSlice({
       } else {
         state.items = state.items.filter(item => item.title !== action.payload.title);
       }
+    },
+    toggleIron: (state, action) => {
+      const item = state.items.find(item => item.title === action.payload.title);
+      if (item) {
+        item.ironCloth = !item.ironCloth; // Toggle the ironing option
+      }
     }
   }
 });
 
-export const { addItem, incrementItem, decrementItem } = orderSlice.actions;
+export const { addItem, incrementItem, decrementItem, toggleIron } = orderSlice.actions;
 export default orderSlice.reducer;

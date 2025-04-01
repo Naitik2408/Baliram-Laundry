@@ -6,7 +6,7 @@ function DryClean() {
     const dryCleanItems = data["Dry-clean"];
 
     return (
-        <div className='grid grid-cols-2 gap-5 md:gap-10'>
+        <div className='grid grid-cols-2 gap-y-8 gap-2 md:gap-10'>
             {dryCleanItems.map((item, index) => (
                 <Card key={index} {...item} />
             ))}
