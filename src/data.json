@@ -93,7 +93,7 @@
             "image": "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcRCyik2_A8qOp8ldpn8avIFKo4N10qx8R1w0S1JwsjC8Xs17xzKlEp4fLHOPbRbDZlIx27yUp92LLaSd0Qc5PF9H7TY3ArfJOoPrCJown_xlSlvUt0jfUCJ",
             "price": 25,
             "description": "This is a pillow cover",
-            "isIron": true,
+            "isIron": false,
             "category": "Normal-cloths"
         }
     ],
