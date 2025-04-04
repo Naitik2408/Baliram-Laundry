@@ -45,15 +45,13 @@ function Card({ title, image, price, description, isIron, category }) {
         dispatch(decrementItem({ title }));
     };
 
-    console.log(cartItem);
-
     return (
         <div className='md:shadow-stone-300 rounded-xl md:rounded-3xl bg-stone-10'>
             <div className='rounded-t-xl md:rounded-t-3xl h-24 md:h-56' style={{ backgroundImage: `url(${image})`, backgroundSize: 'cover', backgroundPosition: 'center' }}></div>
             <div className='py-3'>
                 <div className='flex justify-between items-center lilita-one-regular'>
                     <div className='lilita-one-regular text-[16px] md:text-3xl'>{title}</div>
-                    <div className='text-[16px] md:text-3xl'>{price} <span className='text-blue-500 text-[11px] md:text-sm'>Rs/kg</span></div>
+                    <div className='text-[16px] md:text-3xl'>{price} <span className='text-blue-500 text-[11px] md:text-sm'>{category=='Normal-cloths' ? 'Rs/Kg':'Rs/Piece'}</span></div>
                 </div>
             </div>
             <div className='flex justify-between gap-x-2 items-center'>

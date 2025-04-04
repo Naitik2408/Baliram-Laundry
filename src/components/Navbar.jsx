@@ -128,8 +128,9 @@ function Navbar() {
                   <option value=''>Select Location (Required)</option>
                   <option value='Law Gate'>Law Gate</option>
                   <option value='Green Valley'>Green Valley</option>
-                  <option value='Main Gate'>Main Gate</option>
                   <option value='Bhutani Colony'>Bhutani Colony</option>
+                  <option value='Main Gate'>Main Gate</option>
+                  <option value='Maheru'>Maheru</option>
                 </select>
                 <input
                   type='text'
