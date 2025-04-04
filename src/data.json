@@ -87,6 +87,14 @@
             "description": "This is a pillow cover",
             "isIron": true,
             "category": "Normal-cloths"
+        },
+        {
+            "title": "Socks",
+            "image": "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcRCyik2_A8qOp8ldpn8avIFKo4N10qx8R1w0S1JwsjC8Xs17xzKlEp4fLHOPbRbDZlIx27yUp92LLaSd0Qc5PF9H7TY3ArfJOoPrCJown_xlSlvUt0jfUCJ",
+            "price": 25,
+            "description": "This is a pillow cover",
+            "isIron": true,
+            "category": "Normal-cloths"
         }
     ],
     "Dry-clean": [
@@ -155,7 +163,7 @@
             "image": "https://m.media-amazon.com/images/I/71vFGaD-rNL.jpg",
             "price": 250,
             "description": "This is a single bed blanket",
-            "isIron": true,
+            "isIron": false,
             "category": "Blanket-wash"
         },
         {
@@ -163,7 +171,7 @@
             "image": "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcR-c9_KuPz2TP56hIw--ENVVDe-Hzhjs-yG-Dwl1_t3BQ2hWNQEFmhNUC1Uw6KxvHjNVPP7Zh3UgIbthvlV2iKyFgEELkjmzXmuP1Bhell4ax_X6pcxtQS-ig",
             "price": 450,
             "description": "This is a double bed blanket",
-            "isIron": true,
+            "isIron": false,
             "category": "Blanket-wash"
         }
     ],
