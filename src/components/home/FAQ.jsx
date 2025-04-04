@@ -2,6 +2,7 @@ import React from 'react';
 import { FaPhoneAlt, FaMapMarker } from "react-icons/fa";
 import { IoMailUnread } from "react-icons/io5";
 import { BsClockFill } from "react-icons/bs";
+import contactImage from "../../assets/contactimge.png";
 
 const contactDetails = [
     {
@@ -52,7 +53,9 @@ function FAQ() {
                     ))}
                 </div>
             </div>
-            <div className='flg:lex-1 lg:p-8'></div>
+            <div className='flex-1 flex justify-center items-end'>
+                <img src={contactImage} alt="contact image" className='w-[30rem]' />
+            </div>
         </div>
     );
 }
