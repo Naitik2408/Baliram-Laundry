@@ -149,6 +149,22 @@
             "description": "This is a double bed blanket",
             "isIron": true,
             "category": "Blanket-wash"
+        },
+        {
+            "title": "Single Bed(Rajai)",
+            "image": "https://m.media-amazon.com/images/I/71vFGaD-rNL.jpg",
+            "price": 250,
+            "description": "This is a single bed blanket",
+            "isIron": true,
+            "category": "Blanket-wash"
+        },
+        {
+            "title": "Double Bed(Rajai)",
+            "image": "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcR-c9_KuPz2TP56hIw--ENVVDe-Hzhjs-yG-Dwl1_t3BQ2hWNQEFmhNUC1Uw6KxvHjNVPP7Zh3UgIbthvlV2iKyFgEELkjmzXmuP1Bhell4ax_X6pcxtQS-ig",
+            "price": 450,
+            "description": "This is a double bed blanket",
+            "isIron": true,
+            "category": "Blanket-wash"
         }
     ],
     "Bags": [

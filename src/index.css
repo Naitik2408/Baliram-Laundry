@@ -150,3 +150,6 @@ button:hover {
   filter: brightness(1.1);
 }
 
+html {
+  scroll-behavior: smooth;
+}
