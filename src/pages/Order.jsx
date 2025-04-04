@@ -18,7 +18,7 @@ function Order() {
     };
 
     return (
-        <div className='px-2 md:px-20 py-2 md:py-10 md:h-[100vh] flex flex-col md:flex-row gap-2 md:gap-10'>
+        <div className='px-2 md:px-10 py-2 md:py-10 md:h-[100vh] flex flex-col md:flex-row gap-2 md:gap-10'>
             <div className='md:w-[30%]'>
                 <Navbar/>
                 <div className='mt-2 md:mt-5 md:py-9 rounded-4xl grid gap-2 md:gap-5 grid-cols-3 md:grid-cols-3'>
