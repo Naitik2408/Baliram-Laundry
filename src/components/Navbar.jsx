@@ -109,7 +109,7 @@ function Navbar() {
                   placeholder='Room No (Optional)'
                   value={address.roomNo}
                   onChange={handleAddressChange}
-                  className='w-full p-2 mb-2 border rounded'
+                  className='w-full px-4 py-2 mb-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500'
                 />
                 <input
                   type='text'
@@ -117,13 +117,13 @@ function Navbar() {
                   placeholder='PG/Building Name (Required)'
                   value={address.pgName}
                   onChange={handleAddressChange}
-                  className='w-full p-2 mb-2 border rounded'
+                  className='w-full px-4 py-2 mb-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500'
                 />
                 <select
                   name='option'
                   value={address.option}
                   onChange={handleAddressChange}
-                  className='w-full p-2 mb-2 border rounded'
+                  className='w-full px-4 py-2 mb-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500'
                 >
                   <option value=''>Select Location (Required)</option>
                   <option value='Law Gate'>Law Gate</option>
@@ -138,14 +138,14 @@ function Navbar() {
                   placeholder='Landmark (Optional)'
                   value={address.landmark}
                   onChange={handleAddressChange}
-                  className='w-full p-2 mb-2 border rounded'
+                  className='w-full px-4 py-2 mb-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500'
                 />
                 <textarea
                   name='fullAddress'
                   placeholder='Address Lane 2 (Required)'
                   value={address.fullAddress}
                   onChange={handleAddressChange}
-                  className='w-full p-2 border rounded'
+                  className='w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500'
                 ></textarea>
                 {error && <div className='text-red-500 text-sm mt-2'>{error}</div>}
               </div>
