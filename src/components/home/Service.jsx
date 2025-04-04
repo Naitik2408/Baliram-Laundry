@@ -16,7 +16,7 @@ function Service() {
                         ].map((item, index) => (
                             <li key={index} className='flex items-center gap-2'>
                                 <div className='p-1 bg-blue-500 rounded-full text-stone-50'>
-                                    <IoIosArrowForward size={10} />
+                                    <IoIosArrowForward className='text-sm md:text-lg' />
                                 </div>
                                 <span className='poppins-medium text-stone-600'>{item}</span>
                             </li>
